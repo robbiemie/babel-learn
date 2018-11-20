@@ -1,3 +1,9 @@
 const fn = (a, b) => a + b
 
-console.log(fn(1, 2))
+class Demo {
+  test () {
+    console.log('test')
+  }
+}
+
+console.log(fn(1, 2), new Demo())

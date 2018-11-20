@@ -1,0 +1,25 @@
+{
+  "name": "babel-learn",
+  "version": "1.0.0",
+  "description": "babel 常用配置",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yang657850144/babel-learn.git"
+  },
+  "keywords": [
+    "babel"
+  ],
+  "author": "charles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yang657850144/babel-learn/issues"
+  },
+  "homepage": "https://github.com/yang657850144/babel-learn#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
